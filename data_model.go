@@ -42,4 +42,5 @@ type DO struct {
 type DA struct {
 	Data string
 	DAs  []DA
+	FC   FC
 }

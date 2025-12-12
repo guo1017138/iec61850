@@ -3,6 +3,7 @@ package iec61850
 // #include <iec61850_client.h>
 import "C"
 
+//go:generate stringer -type FC
 type FC int
 
 // fc types

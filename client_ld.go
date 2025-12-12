@@ -7,7 +7,7 @@ import (
 	"unsafe"
 )
 
-func (c *Client) GetLogicalDeviceList() DataModel {
+func (c *Client) GetLogicalDeviceList(withFC bool) DataModel {
 	var clientError C.IedClientError
 	deviceList := C.IedConnection_getLogicalDeviceList(c.conn, &clientError)
 
@@ -39,7 +39,7 @@ func (c *Client) GetLogicalDeviceList() DataModel {
 					doRef := fmt.Sprintf("%s/%s.%s", C2GoStr((*C.char)(device.data)), C2GoStr((*C.char)(logicalNode.data)), do.Data)
 
 					var das []DA
-					c.GetDAs(doRef, das)
+					das = c.GetDAs(doRef, das, withFC)
 
 					do.DAs = das
 					ln.DOs = append(ln.DOs, do)
@@ -123,14 +123,17 @@ func (c *Client) GetLogicalDeviceList() DataModel {
 	return dataModel
 }
 
-func (c *Client) GetDAs(doRef string, das []DA) {
-
+func (c *Client) GetDAs(doRef string, das []DA, withFC bool) []DA {
 	var clientError C.IedClientError
 
 	cdoRef := Go2CStr(doRef)
 	defer C.free(unsafe.Pointer(cdoRef))
-
-	dataAttributes := C.IedConnection_getDataDirectory(c.conn, &clientError, cdoRef)
+	var dataAttributes C.LinkedList
+	if withFC {
+		dataAttributes = C.IedConnection_getDataDirectoryFC(c.conn, &clientError, cdoRef)
+	} else {
+		dataAttributes = C.IedConnection_getDataDirectory(c.conn, &clientError, cdoRef)
+	}
 	defer C.LinkedList_destroy(dataAttributes)
 	if dataAttributes != nil {
 		dataAttribute := dataAttributes.next
@@ -138,12 +141,14 @@ func (c *Client) GetDAs(doRef string, das []DA) {
 		for dataAttribute != nil {
 			var da DA
 			da.Data = C2GoStr((*C.char)(dataAttribute.data))
+			daRef := fmt.Sprintf("%s.%s", doRef, da.Data)
+			subDas := []DA{}
+			subDas = c.GetDAs(daRef, subDas, withFC)
+			da.DAs = subDas
 			das = append(das, da)
 
 			dataAttribute = dataAttribute.next
-			daRef := fmt.Sprintf("%s.%s", doRef, da.Data)
-			c.GetDAs(daRef, das)
 		}
 	}
-
+	return das
 }

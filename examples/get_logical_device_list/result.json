@@ -1,0 +1,832 @@
+{
+  "LDs": [
+    {
+      "Data": "simpleIOGenericIO",
+      "LNs": [
+        {
+          "Data": "GGIO1",
+          "DOs": [
+            {
+              "Data": "Mod",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO1",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO2",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "sboClass[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "sboTimeout[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "SBO[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "opOk[OR]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "opRcvd[OR]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "tOpOk[OR]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stSeld[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO3",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO4",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "SBOw[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO5",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO6",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "SBO[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO7",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO8",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "SBOw[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "ctlNum[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "origin[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "SPCSO9",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Cancel[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "Oper[CO]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "NamPlt",
+              "DAs": [
+                {
+                  "Data": "d[DC]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "swRev[DC]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "vendor[DC]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "AnIn1",
+              "DAs": [
+                {
+                  "Data": "mag[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[MX]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "AnIn2",
+              "DAs": [
+                {
+                  "Data": "mag[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[MX]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "AnIn3",
+              "DAs": [
+                {
+                  "Data": "mag[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[MX]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "AnIn4",
+              "DAs": [
+                {
+                  "Data": "mag[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[MX]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[MX]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Beh",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Health",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Ind1",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Ind2",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Ind3",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Ind4",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            }
+          ],
+          "DSs": null,
+          "URReports": null,
+          "BRReports": null
+        },
+        {
+          "Data": "LLN0",
+          "DOs": [
+            {
+              "Data": "Mod",
+              "DAs": [
+                {
+                  "Data": "ctlModel[CF]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "NamPlt",
+              "DAs": [
+                {
+                  "Data": "configRev[DC]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "d[DC]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "swRev[DC]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "vendor[DC]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "ldNs[EX]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Beh",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Health",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            }
+          ],
+          "DSs": [
+            {
+              "Data": "ControlEvents",
+              "DSRefs": [
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO1.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO3.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO4.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO5.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO6.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO7.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO8.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO9.stVal[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.stSeld[ST]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.opRcvd[OR]"
+                },
+                {
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.opOk[OR]"
+                }
+              ]
+            }
+          ],
+          "URReports": [
+            {
+              "Data": "ControlEventsRCB01"
+            },
+            {
+              "Data": "ControlEventsRCB02"
+            }
+          ],
+          "BRReports": null
+        },
+        {
+          "Data": "LPHD1",
+          "DOs": [
+            {
+              "Data": "PhyNam",
+              "DAs": [
+                {
+                  "Data": "vendor[DC]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "PhyHealth",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            },
+            {
+              "Data": "Proxy",
+              "DAs": [
+                {
+                  "Data": "q[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "stVal[ST]",
+                  "DAs": [],
+                  "FC": 0
+                },
+                {
+                  "Data": "t[ST]",
+                  "DAs": [],
+                  "FC": 0
+                }
+              ]
+            }
+          ],
+          "DSs": null,
+          "URReports": null,
+          "BRReports": null
+        }
+      ]
+    }
+  ]
+}
