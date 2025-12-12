@@ -10,17 +10,17 @@
               "Data": "Mod",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -30,27 +30,69 @@
               "Data": "SPCSO1",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -60,67 +102,146 @@
               "Data": "SPCSO2",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "sboClass",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "sboTimeout",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "SBO",
+                  "DAs": [],
+                  "FC": 12
+                },
+                {
+                  "Data": "opOk",
+                  "DAs": [],
+                  "FC": 9
+                },
+                {
+                  "Data": "opRcvd",
+                  "DAs": [],
+                  "FC": 9
+                },
+                {
+                  "Data": "tOpOk",
+                  "DAs": [],
+                  "FC": 9
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "sboClass[CF]",
+                  "Data": "stSeld",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "sboTimeout[CF]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "Oper[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "SBO[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "opOk[OR]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "opRcvd[OR]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "tOpOk[OR]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stSeld[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -130,32 +251,111 @@
               "Data": "SPCSO3",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -165,37 +365,158 @@
               "Data": "SPCSO4",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "SBOw",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "SBOw[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -205,32 +526,116 @@
               "Data": "SPCSO5",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -240,37 +645,126 @@
               "Data": "SPCSO6",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "SBO",
+                  "DAs": [],
+                  "FC": 12
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "SBO[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -280,32 +774,121 @@
               "Data": "SPCSO7",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -315,47 +898,194 @@
               "Data": "SPCSO8",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "SBOw",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "operTm",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "ctlNum",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
+                  "Data": "origin",
+                  "DAs": [
+                    {
+                      "Data": "orCat",
+                      "DAs": [],
+                      "FC": 0
+                    },
+                    {
+                      "Data": "orIdent",
+                      "DAs": [],
+                      "FC": 0
+                    }
+                  ],
+                  "FC": 0
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "SBOw[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "ctlNum[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "origin[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -365,32 +1095,111 @@
               "Data": "SPCSO9",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "Cancel",
+                  "DAs": [
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "Oper",
+                  "DAs": [
+                    {
+                      "Data": "Check",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlNum",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "ctlVal",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "origin",
+                      "DAs": [
+                        {
+                          "Data": "orCat",
+                          "DAs": [],
+                          "FC": 12
+                        },
+                        {
+                          "Data": "orIdent",
+                          "DAs": [],
+                          "FC": 12
+                        }
+                      ],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "T",
+                      "DAs": [],
+                      "FC": 12
+                    },
+                    {
+                      "Data": "Test",
+                      "DAs": [],
+                      "FC": 12
+                    }
+                  ],
+                  "FC": 12
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Cancel[CO]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "Oper[CO]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "stVal[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -400,19 +1209,19 @@
               "Data": "NamPlt",
               "DAs": [
                 {
-                  "Data": "d[DC]",
+                  "Data": "d",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 },
                 {
-                  "Data": "swRev[DC]",
+                  "Data": "swRev",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 },
                 {
-                  "Data": "vendor[DC]",
+                  "Data": "vendor",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 }
               ]
             },
@@ -420,19 +1229,25 @@
               "Data": "AnIn1",
               "DAs": [
                 {
-                  "Data": "mag[MX]",
-                  "DAs": [],
-                  "FC": 0
+                  "Data": "mag",
+                  "DAs": [
+                    {
+                      "Data": "f",
+                      "DAs": [],
+                      "FC": 1
+                    }
+                  ],
+                  "FC": 1
                 },
                 {
-                  "Data": "q[MX]",
+                  "Data": "q",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 },
                 {
-                  "Data": "t[MX]",
+                  "Data": "t",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 }
               ]
             },
@@ -440,19 +1255,25 @@
               "Data": "AnIn2",
               "DAs": [
                 {
-                  "Data": "mag[MX]",
-                  "DAs": [],
-                  "FC": 0
+                  "Data": "mag",
+                  "DAs": [
+                    {
+                      "Data": "f",
+                      "DAs": [],
+                      "FC": 1
+                    }
+                  ],
+                  "FC": 1
                 },
                 {
-                  "Data": "q[MX]",
+                  "Data": "q",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 },
                 {
-                  "Data": "t[MX]",
+                  "Data": "t",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 }
               ]
             },
@@ -460,19 +1281,25 @@
               "Data": "AnIn3",
               "DAs": [
                 {
-                  "Data": "mag[MX]",
-                  "DAs": [],
-                  "FC": 0
+                  "Data": "mag",
+                  "DAs": [
+                    {
+                      "Data": "f",
+                      "DAs": [],
+                      "FC": 1
+                    }
+                  ],
+                  "FC": 1
                 },
                 {
-                  "Data": "q[MX]",
+                  "Data": "q",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 },
                 {
-                  "Data": "t[MX]",
+                  "Data": "t",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 }
               ]
             },
@@ -480,19 +1307,25 @@
               "Data": "AnIn4",
               "DAs": [
                 {
-                  "Data": "mag[MX]",
-                  "DAs": [],
-                  "FC": 0
+                  "Data": "mag",
+                  "DAs": [
+                    {
+                      "Data": "f",
+                      "DAs": [],
+                      "FC": 1
+                    }
+                  ],
+                  "FC": 1
                 },
                 {
-                  "Data": "q[MX]",
+                  "Data": "q",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 },
                 {
-                  "Data": "t[MX]",
+                  "Data": "t",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 1
                 }
               ]
             },
@@ -500,17 +1333,17 @@
               "Data": "Beh",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -520,17 +1353,17 @@
               "Data": "Health",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -540,17 +1373,17 @@
               "Data": "Ind1",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -560,17 +1393,17 @@
               "Data": "Ind2",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -580,17 +1413,17 @@
               "Data": "Ind3",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -600,17 +1433,17 @@
               "Data": "Ind4",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -628,17 +1461,17 @@
               "Data": "Mod",
               "DAs": [
                 {
-                  "Data": "ctlModel[CF]",
+                  "Data": "ctlModel",
+                  "DAs": [],
+                  "FC": 4
+                },
+                {
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "q[ST]",
-                  "DAs": [],
-                  "FC": 0
-                },
-                {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -648,29 +1481,29 @@
               "Data": "NamPlt",
               "DAs": [
                 {
-                  "Data": "configRev[DC]",
+                  "Data": "configRev",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 },
                 {
-                  "Data": "d[DC]",
+                  "Data": "d",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 },
                 {
-                  "Data": "swRev[DC]",
+                  "Data": "swRev",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 },
                 {
-                  "Data": "vendor[DC]",
+                  "Data": "vendor",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 },
                 {
-                  "Data": "ldNs[EX]",
+                  "Data": "ldNs",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 11
                 }
               ]
             },
@@ -678,17 +1511,17 @@
               "Data": "Beh",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -698,17 +1531,17 @@
               "Data": "Health",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -720,40 +1553,52 @@
               "Data": "ControlEvents",
               "DSRefs": [
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO1.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO1.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO3.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO3.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO4.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO4.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO5.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO5.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO6.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO6.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO7.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO7.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO8.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO8.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO9.stVal[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO9.stVal",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.stSeld[ST]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.stSeld",
+                  "FC": 0
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.opRcvd[OR]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.opRcvd",
+                  "FC": 9
                 },
                 {
-                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.opOk[OR]"
+                  "Data": "simpleIOGenericIO/GGIO1.SPCSO2.opOk",
+                  "FC": 9
                 }
               ]
             }
@@ -775,9 +1620,9 @@
               "Data": "PhyNam",
               "DAs": [
                 {
-                  "Data": "vendor[DC]",
+                  "Data": "vendor",
                   "DAs": [],
-                  "FC": 0
+                  "FC": 5
                 }
               ]
             },
@@ -785,17 +1630,17 @@
               "Data": "PhyHealth",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }
@@ -805,17 +1650,17 @@
               "Data": "Proxy",
               "DAs": [
                 {
-                  "Data": "q[ST]",
+                  "Data": "q",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "stVal[ST]",
+                  "Data": "stVal",
                   "DAs": [],
                   "FC": 0
                 },
                 {
-                  "Data": "t[ST]",
+                  "Data": "t",
                   "DAs": [],
                   "FC": 0
                 }

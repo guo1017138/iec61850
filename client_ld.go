@@ -4,6 +4,7 @@ package iec61850
 import "C"
 import (
 	"fmt"
+	"strings"
 	"unsafe"
 )
 
@@ -67,7 +68,16 @@ func (c *Client) GetLogicalDeviceList(withFC bool) DataModel {
 						dataSetMemberRef := dataSetMembers.next
 						for dataSetMemberRef != nil {
 							var dsRef DSRef
-							dsRef.Data = C2GoStr((*C.char)(dataSetMemberRef.data))
+							data := C2GoStr((*C.char)(dataSetMemberRef.data))
+							dsRef.Data = data
+							dsRef.FC = NONE
+							if withFC {
+								datas := strings.Split(data, "[")
+								if len(datas) > 1 {
+									dsRef.Data = datas[0]
+									dsRef.FC = GetFCByString(strings.TrimSuffix(datas[1], "]"))
+								}
+							}
 							ds.DSRefs = append(ds.DSRefs, dsRef)
 
 							dataSetMemberRef = dataSetMemberRef.next
@@ -140,7 +150,16 @@ func (c *Client) GetDAs(doRef string, das []DA, withFC bool) []DA {
 
 		for dataAttribute != nil {
 			var da DA
-			da.Data = C2GoStr((*C.char)(dataAttribute.data))
+			data := C2GoStr((*C.char)(dataAttribute.data))
+			da.Data = data
+			da.FC = NONE
+			if withFC { // Split FC
+				datas := strings.Split(data, "[")
+				if len(datas) > 1 {
+					da.Data = datas[0]
+					da.FC = GetFCByString(strings.TrimSuffix(datas[1], "]"))
+				}
+			}
 			daRef := fmt.Sprintf("%s.%s", doRef, da.Data)
 			subDas := []DA{}
 			subDas = c.GetDAs(daRef, subDas, withFC)

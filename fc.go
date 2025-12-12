@@ -3,7 +3,6 @@ package iec61850
 // #include <iec61850_client.h>
 import "C"
 
-//go:generate stringer -type FC
 type FC int
 
 // fc types
@@ -50,3 +49,50 @@ const (
 	ALL  FC = 99
 	NONE FC = -1
 )
+
+func GetFCByString(fcStr string) (fc FC) {
+	fc = NONE
+	switch fcStr {
+	case "ST":
+		fc = ST
+	case "MX":
+		fc = MX
+	case "SP":
+		fc = SP
+	case "SV":
+		fc = SV
+	case "CF":
+		fc = CF
+	case "DC":
+		fc = DC
+	case "SG":
+		fc = SG
+	case "SE":
+		fc = SE
+	case "SR":
+		fc = SR
+	case "OR":
+		fc = OR
+	case "BL":
+		fc = BL
+	case "EX":
+		fc = EX
+	case "CO":
+		fc = CO
+	case "US":
+		fc = US
+	case "MS":
+		fc = MS
+	case "RP":
+		fc = RP
+	case "BR":
+		fc = BR
+	case "LG":
+		fc = LG
+	case "GO":
+		fc = GO
+	case "ALL":
+		fc = ALL
+	}
+	return
+}

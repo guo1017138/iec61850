@@ -32,6 +32,7 @@ type DS struct {
 
 type DSRef struct {
 	Data string
+	FC   FC
 }
 
 type DO struct {
